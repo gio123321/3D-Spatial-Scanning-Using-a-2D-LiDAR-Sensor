@@ -1,0 +1,30 @@
+{
+  "schema_version": 3,
+  "name": "UnfoLDAR OV2640 final checkerboard profile (2026-09-06)",
+  "image_width": 640,
+  "image_height": 480,
+  "lens_model": "opencv_fisheye",
+  "fx": 448.33006008863555,
+  "fy": 448.6159119186041,
+  "cx": 295.6977759572745,
+  "cy": 245.47552908235764,
+  "distortion": [
+    -0.07844217853273978,
+    -0.04197766192248147,
+    0.0483315102662993,
+    -0.02646702007366804
+  ],
+  "axis_map": [[1.0, 0.0, 0.0], [0.0, 1.0, 0.0], [0.0, 0.0, 1.0]],
+  "camera_basis": [[0.0, 0.0, 1.0], [-1.0, 0.0, 0.0], [0.0, -1.0, 0.0]],
+  "pan_axis": [0.0, 0.0, 1.0],
+  "tilt_axis": [0.0, 1.0, 0.0],
+  "pan_sign": -1.0,
+  "tilt_sign": -1.0,
+  "rotation_order": "pan_tilt",
+  "pan_zero_deg": 0.0,
+  "tilt_zero_deg": 0.0,
+  "boresight_ypr_deg": [0.0, 0.0, 0.0],
+  "camera_center_xyz_m": [0.0, 0.0, 0.0],
+  "unit_scale_to_m": 1.0,
+  "image_pose_offset_frames": -1
+}

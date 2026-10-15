@@ -1,0 +1,26 @@
+name: unfoldar_mobile
+description: "UnfoLDAR foreground LiDAR and camera capture for the scanning rig."
+publish_to: 'none'
+version: 1.0.0-rc.1+2
+
+environment:
+  sdk: ^3.11.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Upstream 0.4.0 predates AGP 8 namespaces. The local Android build patch
+  # is required; see third_party/flutter_bluetooth_serial/android/build.gradle.
+  flutter_bluetooth_serial:
+    path: third_party/flutter_bluetooth_serial
+  # Nearby-device permissions required on Android 12 and later.
+  permission_handler: ^11.3.1
+  path_provider: ^2.1.4
+  archive: ^4.2.0
+  share_plus: ^13.3.0
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true

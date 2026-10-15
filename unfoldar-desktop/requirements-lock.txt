@@ -1,0 +1,11 @@
+# Tested Windows / CPython 3.12 direct dependencies.
+numpy==2.4.6
+opencv-python==5.0.0.93
+open3d==0.19.0
+plyfile==1.1.5
+scipy==1.18.0
+PySide6-Essentials==6.11.2
+pyvista==0.48.4
+pyvistaqt==0.13.0
+vtk==9.6.2
+xatlas==0.0.11

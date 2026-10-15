@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- background -->
+  <rect width="512" height="512" rx="112" fill="#194154"/>
+
+  <!-- tripod legs -->
+  <g stroke="#F3F6FA" stroke-width="20" stroke-linecap="round">
+    <line x1="256" y1="222" x2="141" y2="392"/>
+    <line x1="256" y1="222" x2="256" y2="410"/>
+    <line x1="256" y1="222" x2="371" y2="392"/>
+  </g>
+
+  <!-- LiDAR head (side profile) -->
+  <rect x="186" y="94" width="140" height="136" rx="26" fill="#E8572C"/>
+  <rect x="222" y="150" width="68" height="12" rx="6" fill="#194154" opacity="0.55"/>
+</svg>

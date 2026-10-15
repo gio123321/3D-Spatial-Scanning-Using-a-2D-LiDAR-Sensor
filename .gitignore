@@ -1,0 +1,70 @@
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+.pypirc
+key.properties
+*.jks
+*.keystore
+local.properties
+
+# Editors and operating systems
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+*.swp
+*.swo
+*.class
+.DS_Store
+Thumbs.db
+*.log
+
+# Build output
+build/
+dist/
+.build/
+.cxx/
+*.egg-info/
+*.hprof
+
+# Python environments and caches
+.venv/
+venv/
+.testdeps/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Flutter, Dart, Gradle and Kotlin caches
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub/
+.pub-cache/
+.gradle/
+.kotlin/
+migrate_working_dir/
+GeneratedPluginRegistrant.java
+coverage/
+/unfoldar-mobile/android/app/debug/
+/unfoldar-mobile/android/app/profile/
+/unfoldar-mobile/android/app/release/
+app.*.symbols
+app.*.map.json
+
+# Local captures and processing output
+/scans/
+/unfoldar-desktop/workspaces/
+/unfoldar-mobile/android/captures/
+outputs/
+cache/
+*.unfoldar.json
+.unfoldar-stage-*/
